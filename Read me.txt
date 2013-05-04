@@ -1,0 +1,48 @@
+Packet sniffer and Analyzer
+
+--Need to install jpcap and winpcap library first
+
+--Then copy jpcap.jar and jpcap.dll in system32 files as given path below ,
+
+Use any version of Netbeans...
+
+"1) Download and install Javatm2 Platform, Standard Edition (J2SEtm) JRE or SDK. java.sun.com/download
+
+
+2) Download and install the latest WinPcap.
+
+from http://winpcap.polito.it/install/default.htm
+WinPcap 3.0 download: Windows 95/98/ME/NT/2000/XP WinPcap auto-installer (driver +DLLs)
+P.S. Using the auto-installer will save you the effort of compiling it yourself
+
+3) a. Download and extract the latest Jpcap. i.e. Jpcap ver.0.4 (Released on 4/1/03) jpcap-0.4.zip from http://netresearch.ics.uci.edu/kfujii/jpcap/doc/index.html
+
+b. Copy "lib\Jpcap.dll" into "[JRE directory]\bin" or "[JRE directory]\lib\ext\x86"
+
+c. Copy "lib\jpcap.jar" into "[JRE directory]\lib\ext"
+
+d. If you installed J2SE SDK, you also need to copy "lib\jpcap.jar" into "[SDK directory]\jre\lib\ext".
+
+Note: [JRE directory] is usually "C:\Program Files\Java\j2re*".
+[SDK directory] is usually "C:\j2sdk*".
+
+
+"
+
+
+
+--After that start client server programming or any other way so that packets get
+
+--transfered between to PC in LAN connection ,
+
+--Then start "Sniff.java" file
+
+--select protocol you wanna capture
+
+--it will show all the field related to packet and payload also.
+
+
+
+Thanks 
+Karimkhan
+mail@ - karimkhan_it@yahoo
